@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE2FD642-A4B1-491B-9457-1A6AD63DB2C4}</ProjectGuid>
+    <ProjectGuid>{A984E7AD-E8D2-4D4B-BE7A-61AC487CEB4D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>fourth</RootNamespace>
-    <AssemblyName>fourth</AssemblyName>
+    <RootNamespace>menu</RootNamespace>
+    <AssemblyName>menu</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,6 +47,44 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eighth\eighth.csproj">
+      <Project>{31f88dd2-11ad-4978-a232-e84fdbeb5a77}</Project>
+      <Name>eighth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fifth\fifth.csproj">
+      <Project>{fa6f1420-c4ac-492b-b0af-2bac5112cb35}</Project>
+      <Name>fifth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fourth\fourth.csproj">
+      <Project>{fe2fd642-a4b1-491b-9457-1a6ad63db2c4}</Project>
+      <Name>fourth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ninth\Ninth.csproj">
+      <Project>{22cbd162-eb37-469e-9c15-313a7555e3b7}</Project>
+      <Name>Ninth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\s2first\s2first.csproj">
+      <Project>{a95f2137-ff16-4a68-b673-16361f5b0a25}</Project>
+      <Name>s2first</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\second\second.csproj">
+      <Project>{23ef39b1-b1b9-4631-98d3-e0535094593b}</Project>
+      <Name>second</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seventh\Seventh.csproj">
+      <Project>{e59deb72-4f2e-4583-9dd4-25cd95898f52}</Project>
+      <Name>Seventh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sixth\sixth.csproj">
+      <Project>{8412982b-27c8-4b43-9544-9b365ba08621}</Project>
+      <Name>sixth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thirf\third.csproj">
+      <Project>{626a00da-fdcc-459e-9b09-8a23e02fff1f}</Project>
+      <Name>third</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace s2first
 {
-    class Program
+    public class ProgramQ1
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine("Hello World");
             Console.ReadLine();

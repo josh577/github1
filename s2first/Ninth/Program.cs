@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ninth
 {
-    class Program
+    public class ProgramQ9
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string[] classmates = {"Fred", "Bob", "Dylan", "Eli", "Josh"};
             foreach (string value in classmates)

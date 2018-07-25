@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE2FD642-A4B1-491B-9457-1A6AD63DB2C4}</ProjectGuid>
+    <ProjectGuid>{626A00DA-FDCC-459E-9B09-8A23E02FFF1F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>fourth</RootNamespace>
-    <AssemblyName>fourth</AssemblyName>
+    <RootNamespace>thirf</RootNamespace>
+    <AssemblyName>thirf</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

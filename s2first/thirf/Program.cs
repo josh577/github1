@@ -2,9 +2,9 @@
 
 namespace third
 {
-    class Program
+    public class ProgramQ3
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine("Welcome to multiply calculator. Please enter your first number:");
             int num1 = Convert.ToInt32(Console.ReadLine());
@@ -14,7 +14,7 @@ namespace third
 
             int product = num1 * num2;
 
-            Console.WriteLine($"{num1} x {num2} = "+product);
+            Console.WriteLine($"{num1} x {num2} = " + product);
             Console.ReadLine();
         }
     }
